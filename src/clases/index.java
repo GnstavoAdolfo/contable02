@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package clases;
-import interfaces.iface_01_inicio;
+import interfaces.iface_01_login;
 /**
  *
  * @author Master Kaizen - MK
@@ -16,7 +16,7 @@ public class index {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        iface_01_inicio vista = new iface_01_inicio();
+        iface_01_login vista = new iface_01_login();
          vista.setVisible(true);
          vista.setLocationRelativeTo(null);
     }
